@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+
+    <!--  It is used to check Unused resource files  -->
+    <issue id="UnusedResources" severity="fatal" />
+    <issue id="MissingTranslation" severity="warning">
+        <ignore path="res/layout/activity_main.xml" />
+    </issue>
+
+    <issue id="UselessLeaf">
+        <ignore path="res/layout/activity_main.xml" />
+    </issue>
+
+    <issue id="DuplicateIds" severity="" />
+
+    <!--  It is used to check Hard Coded strings  -->
+    <issue id="HardcodedText" severity="error" />
+
+    <!--  It is used to check API level  -->
+    <issue id="InlinedApi" severity="error" />
+</lint>
